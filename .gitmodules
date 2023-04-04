@@ -1,0 +1,3 @@
+[submodule "safe-gateway-typescript-sdk"]
+	path = safe-gateway-typescript-sdk
+	url = https://github.com/neonlabsorg/gnosis-neon-safe-gateway-typescript-sdk.git
