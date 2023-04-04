@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["MessageValue",""],["SignatureType",""]],"struct":[["Confirmation",""],["Message",""]]};

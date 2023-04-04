@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["ConflictType",""],["ExecutionInfo",""],["Label",""],["TransactionListItem",""]],"struct":[["ModuleExecutionInfo",""],["MultisigExecutionInfo",""],["TransactionSummary","TransactionSummary - object returned for [TransactionListItem::Transaction]"]]};

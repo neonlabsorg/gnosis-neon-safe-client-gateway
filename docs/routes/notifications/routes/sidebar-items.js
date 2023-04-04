@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["delete_notification_registration","`/v1/chains/<chain_id>/notifications/devices/<uuid>/safes/<safe_address>`  Returns `()`"],["post_notification_registration","`/v1/register/notifications`  Returns `()`"]]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":[["backend_models",""],["create_message",""],["frontend_models",""],["get_message",""],["get_messages",""],["message_mapper",""],["update_message",""]]};

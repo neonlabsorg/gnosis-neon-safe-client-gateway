@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["ImplementationVersionState",""]],"struct":[["Implementation",""],["SafeInfoEx",""],["SafeLastChanges",""],["SafeState",""],["SafeTransactionEstimation",""],["SafeTransactionEstimationRequest",""],["SafeTransactionEstimationV2",""]]};
