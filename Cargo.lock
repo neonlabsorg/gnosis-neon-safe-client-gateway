@@ -146,9 +146,9 @@ dependencies = [
 
 [[package]]
 name = "bb8-redis"
-version = "0.12.0"
+version = "0.13.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8310da711a26fa0326202261abd73a414340f3ec957f63927a055511a01d7fb2"
+checksum = "cd456361ba8e4e7f5fe58e1697ce078a149c85ebce13bf9c6b483d3f566fc9c3"
 dependencies = [
  "async-trait",
  "bb8",
@@ -1939,9 +1939,9 @@ dependencies = [
 
 [[package]]
 name = "redis"
-version = "0.22.0"
+version = "0.23.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2e5450e9add55de0ea728a964191669d3707fa20666c5f16753f3a6a51e96231"
+checksum = "3ea8c51b5dc1d8e5fd3350ec8167f464ec0995e79f2e90a075b63371500d557f"
 dependencies = [
  "async-trait",
  "bytes 1.0.1",
