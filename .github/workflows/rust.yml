@@ -8,7 +8,7 @@ env:
 jobs:
 
   rustfmt:
-    runs-on: ubuntu-20.04
+    runs-on: ["self-hosted", "k8s-prod"]
     steps:
       - name: Checkout branch
         uses: actions/checkout@v3
@@ -28,7 +28,7 @@ jobs:
           args: --all --check
 
   tests:
-    runs-on: ubuntu-20.04
+    runs-on: ["self-hosted", "k8s-prod"]
 
     services:
       # Label used to access the service container
@@ -106,7 +106,7 @@ jobs:
           path-to-lcov: ${{ steps.coverage.outputs.report }}
 
   docs:
-    runs-on: ubuntu-20.04
+    runs-on: ["self-hosted", "k8s-prod"]
     needs: [ rustfmt, tests ]
     if: github.ref == 'refs/heads/main'
     steps:
@@ -154,7 +154,7 @@ jobs:
   docker-publish-staging:
     if: (github.event_name == 'push' && github.ref == 'refs/heads/main')
     needs: [ rustfmt, tests ]
-    runs-on: ubuntu-latest
+    runs-on: ["self-hosted", "k8s-prod"]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -190,7 +190,7 @@ jobs:
 
 
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ["self-hosted", "k8s-prod"]
     env:
       DOCKERHUB_ORG: neonlabsorg
       DOCKERHUB_PROJECT: neon-safe-client-gateway
